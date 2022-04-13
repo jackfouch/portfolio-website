@@ -4,17 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="/assets/app.css">
+    <link rel="stylesheet" href="/assets/css/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
     <title>Jack Fouch</title>
 </head>
 <body>
-<div class="main d-flex">
-    <div class="header">
-        <img id="headshot" src="/assets/img/headshot.jpg" alt="Professional Headshot">
-        <h3>Jack Fouch</h3>
+<div class="main" onload="startSlideshow()">
+    <div class="slideshow">
+        <img class="image inactive" id="image-2" src="/assets/img/graduation.jpg" alt="CMU Undergrad">
+        <span id="active-image">
+            <img class="image active" id="image-1" src="/assets/img/headshot.jpg" alt="Professional Headshot">
+        </span>
+        <img class="image inactive" id="image-3" src="/assets/img/camelback.jpg" alt="Camelback Mountain">
+    </div>
+    <div class="personal-info">
+        <h2 class="title">Jack Fouch</h3>
+        <h3 class="title">Full Stack Web Developer</h4>
+    </div>
+    <div class="links">
+        <i class="link fab fa-github-square"></i>
+        <i class="link fab fa-linkedin"></i>
+        <i class="link fas fa-file"></i>
     </div>
 </div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="/assets/js/app.js"></script>
+<script src="https://kit.fontawesome.com/bea8694bf8.js" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </body>
 </html>
