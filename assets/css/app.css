@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
-    background-color: #414361;
+    background-color: #f6f7f8;
 }
 
 .main {
@@ -22,26 +22,25 @@ body {
     border-width: 4px;
     border-style: solid;
     width: auto;
+    border-color: #c0c0c0;
 }
 
 .active {
     height: 20rem;
-    border-color: #FF84E8;
 }
 
 .inactive {
     height: 10rem;
-    border-color: #FFA9E7;
 }
 
 .title {
     text-align: center;
-    color: #FF84E8;
+    color: #090c08;
     font-family: 'Oxygen', sans-serif;
 }
 
 .link {
     font-size: 30px;
     margin: 10px 1.5rem 0 1.5rem;
-    color: #FF84E8;
+    color: #004e98;
 }
